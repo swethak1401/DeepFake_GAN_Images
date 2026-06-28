@@ -1,0 +1,102 @@
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ---------------------------------------------------------------------------
+# Virtual environments
+# ---------------------------------------------------------------------------
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# ---------------------------------------------------------------------------
+# Jupyter / IPython
+# ---------------------------------------------------------------------------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+.jupyter/
+
+# ---------------------------------------------------------------------------
+# Machine Learning artifacts (models, checkpoints, logs)
+# ---------------------------------------------------------------------------
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.onnx
+*.pb
+*.tflite
+*.pkl
+*.pickle
+*.joblib
+checkpoints/
+weights/
+saved_models/
+runs/
+logs/
+lightning_logs/
+wandb/
+mlruns/
+tensorboard/
+*.log
+
+# ---------------------------------------------------------------------------
+# Datasets & generated media (keep the repo lightweight)
+# ---------------------------------------------------------------------------
+data/
+datasets/
+dataset/
+input/
+raw/
+processed/
+*.zip
+*.tar
+*.tar.gz
+*.7z
+# Generated/sample images — keep a curated few in assets/ if you want them tracked
+generated/
+samples/
+outputs/
+results/
+
+# ---------------------------------------------------------------------------
+# OS / Editor
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
