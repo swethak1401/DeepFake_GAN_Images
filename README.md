@@ -43,11 +43,11 @@ This implementation follows a **Deep Convolutional GAN (DCGAN)**-style architect
 
 ## Dataset
 
-The model is trained on a **facial-image dataset** loaded via `torchvision` (the notebook was developed on a Kaggle dataset).
+The model is trained on the **CelebFaces Attributes (CelebA) dataset** — a large-scale face dataset of over 200,000 celebrity images.
 
-> **TODO:** Add the exact dataset name and link here (e.g., the Kaggle dataset URL). The raw dataset is intentionally **not** committed to the repo — see [`.gitignore`](.gitignore). Download it separately and place it under a local `data/` directory.
+- **Source:** [CelebA Dataset on Kaggle](https://www.kaggle.com/datasets/jessicali9530/celeba-dataset)
 
-Images are resized, center-cropped, and normalized before training.
+The raw dataset is intentionally **not** committed to the repo — see [`.gitignore`](.gitignore). Download it separately and place it under a local `data/` directory. Images are resized, center-cropped, and normalized before training.
 
 ---
 
@@ -99,18 +99,6 @@ matplotlib
 pillow
 ```
 > A CUDA-capable GPU is strongly recommended for reasonable training times.
-
----
-
-## Results
-
-After training, the generator produces synthetic human faces from random latent vectors.
-
-> **TODO:** Add sample output images here, e.g.:
-> ```markdown
-> ![Generated faces](assets/generated_samples.png)
-> ```
-> Place a few curated samples in an `assets/` folder (the `generated/` and `samples/` folders are git-ignored by default).
 
 ---
 
